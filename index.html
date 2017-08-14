@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles.css">
+  <title>GridTracker</title>
+  <script src="./alerts.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <section class="alerts">
+      <div class="message" aria-live="polite"></div>
+    </section>
+    <header class="box header">
+      <h1>Accessible Tracker</h1>
+      <nav class="accessibility-nav">
+        <a href="#done">Done</a>
+        <a href="#current">Current/Backlog</a>
+        <a href="#icebox">Icebox</a>
+        <a href="#shortcuts">Keyboard shortcuts</a>
+      </nav>
+    </header>
+    <aside class="box sidebar">Sidebar</aside>
+    <main class="box content">
+      <section id="done" class="panel done">
+        DONE
+        <div class="panel-stories">
+          <div class="story">story 1</div>
+          <div class="story">story 2</div>
+          <div class="story">story 3</div>
+          <div class="story">story 4</div>
+          <div class="story">story 5</div>
+          <div class="story">story 6</div>
+          <div class="story">story 7</div>
+          <div class="story">story 8</div>
+          <div class="story">story 9</div>
+          <div class="story">story 10</div>
+        </div>
+      </section>
+      <section id="current" class="panel current">CURRENT/BACKLOG
+        <div class="panel-stories">
+          <div class="story">story 1</div>
+        </div>
+      </section>
+      <section id="icebox" class="panel icebox">
+        ICEBOX
+        <div class="panel-stories">
+          <div class="story">story 1</div>
+          <div class="story">story 2</div>
+          <div class="story">story 3</div>
+          <div class="story">story 4</div>
+          <div class="story">story 5</div>
+          <div class="story">story 6</div>
+        </div>
+      </section>
+    </main>
+    <footer class="box footer">Footer</footer>
+  </div>
+</body>
+
+</html>
